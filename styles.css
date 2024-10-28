@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+thead th {
+    background-color: #acc8f0;
+    color: #333;
+    text-align: left;
+    padding: 10px;
+    font-size: 1em;
+}
+
+tbody td, thead th {
+    border: 1px solid #d3d3d3;
+    padding: 8px;
+    font-size: 0.9em;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e6f2ff;
+}
+
+tbody td:first-child {
+    font-weight: bold;
+    background-color: #eaf2ff;
+}
+
+section {
+    margin-bottom: 20px;
+}
